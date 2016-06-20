@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogProject", "BlogProject\BlogProject.csproj", "{CA625595-4CFC-4E32-92CF-F7963818C819}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogProject.Web", "BlogProject\BlogProject.Web.csproj", "{CA625595-4CFC-4E32-92CF-F7963818C819}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogProject.Tests", "BlogProject.Tests\BlogProject.Tests.csproj", "{6195DB47-7053-450A-BD1F-C11547015CB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A762F3AD-AC02-4C8A-BA1D-4ACECB234054}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{2C62C242-563A-44F0-B516-02776D0EB829}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{384A52EE-B124-45F7-938C-A5546D2ADF26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1C72DEFA-7CBC-43C0-B550-AA8BFF741C88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +32,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA625595-4CFC-4E32-92CF-F7963818C819} = {2C62C242-563A-44F0-B516-02776D0EB829}
+		{6195DB47-7053-450A-BD1F-C11547015CB1} = {384A52EE-B124-45F7-938C-A5546D2ADF26}
 	EndGlobalSection
 EndGlobal
