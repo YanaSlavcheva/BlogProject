@@ -1,6 +1,7 @@
-﻿namespace BlogProject.Web.ViewModels.Manage
+﻿namespace BlogProject.Data
 {
     using Microsoft.AspNet.Identity.EntityFramework;
+    using Models;
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

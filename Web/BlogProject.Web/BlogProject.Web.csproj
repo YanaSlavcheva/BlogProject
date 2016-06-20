@@ -179,7 +179,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\Manage\AddPhoneNumberViewModel.cs" />
-    <Compile Include="ViewModels\Manage\ApplicationUser.cs" />
     <Compile Include="ViewModels\Manage\ChangePasswordViewModel.cs" />
     <Compile Include="ViewModels\Manage\ConfigureTwoFactorViewModel.cs" />
     <Compile Include="ViewModels\Manage\FactorViewModel.cs" />
@@ -189,7 +188,6 @@
     <Compile Include="ViewModels\Account\ForgotPasswordViewModel.cs" />
     <Compile Include="ViewModels\Account\ExternalLoginListViewModel.cs" />
     <Compile Include="ViewModels\Account\ForgotViewModel.cs" />
-    <Compile Include="ViewModels\Manage\ApplicationDbContext.cs" />
     <Compile Include="ViewModels\Account\LoginViewModel.cs" />
     <Compile Include="ViewModels\Manage\IndexViewModel.cs" />
     <Compile Include="ViewModels\Account\RegisterViewModel.cs" />
@@ -267,6 +265,16 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\BlogProject.Data.Models\BlogProject.Data.Models.csproj">
+      <Project>{E4A6BA85-C494-4740-AE33-2DA8D67189A1}</Project>
+      <Name>BlogProject.Data.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Data\BlogProject.Data\BlogProject.Data.csproj">
+      <Project>{96192837-4F68-4E66-8379-7DE28AEEF4AC}</Project>
+      <Name>BlogProject.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -281,7 +289,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>57992</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
