@@ -92,7 +92,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BlogProject.Web\BlogProject.Web.csproj">
+    <ProjectReference Include="..\..\BlogProject.Web\BlogProject.Web.csproj">
       <Project>{CA625595-4CFC-4E32-92CF-F7963818C819}</Project>
       <Name>BlogProject.Web</Name>
     </ProjectReference>

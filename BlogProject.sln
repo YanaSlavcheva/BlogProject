@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogProject.Web", "BlogProject.Web\BlogProject.Web.csproj", "{CA625595-4CFC-4E32-92CF-F7963818C819}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogProject.Tests", "BlogProject.Tests\BlogProject.Tests.csproj", "{6195DB47-7053-450A-BD1F-C11547015CB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogProject.Tests", "Tests\BlogProject.Tests\BlogProject.Tests.csproj", "{6195DB47-7053-450A-BD1F-C11547015CB1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A762F3AD-AC02-4C8A-BA1D-4ACECB234054}"
 EndProject
