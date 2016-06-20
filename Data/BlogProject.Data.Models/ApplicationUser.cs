@@ -1,4 +1,4 @@
-﻿namespace BlogProject.Web.ViewModels.Manage
+﻿namespace BlogProject.Data.Models
 {
     using System.Security.Claims;
     using System.Threading.Tasks;
