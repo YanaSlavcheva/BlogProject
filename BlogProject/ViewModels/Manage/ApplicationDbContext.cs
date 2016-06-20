@@ -1,4 +1,4 @@
-﻿namespace BlogProject.ViewModels.Manage
+﻿namespace BlogProject.Web.ViewModels.Manage
 {
     using Microsoft.AspNet.Identity.EntityFramework;
 

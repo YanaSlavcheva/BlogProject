@@ -1,6 +1,5 @@
-﻿namespace BlogProject
+﻿namespace BlogProject.Web
 {
-    using System.Web;
     using System.Web.Mvc;
 
     public class FilterConfig

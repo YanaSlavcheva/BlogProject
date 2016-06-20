@@ -2,7 +2,7 @@
 {
     using System.Web.Mvc;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using BlogProject.Controllers;
+    using Web.Controllers;
 
     [TestClass]
     public class HomeControllerTest

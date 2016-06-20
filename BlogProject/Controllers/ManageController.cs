@@ -1,6 +1,5 @@
-﻿namespace BlogProject.Controllers
+﻿namespace BlogProject.Web.Controllers
 {
-    using System;
     using System.Linq;
     using System.Threading.Tasks;
     using System.Web;
@@ -9,6 +8,7 @@
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin.Security;
     using ViewModels.Manage;
+    using Web;
 
     [Authorize]
     public class ManageController : Controller

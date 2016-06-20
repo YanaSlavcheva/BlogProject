@@ -1,10 +1,12 @@
-﻿using Microsoft.Owin;
-using Owin;
+﻿using BlogProject.Web;
+using Microsoft.Owin;
 
-[assembly: OwinStartupAttribute(typeof(BlogProject.Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 
-namespace BlogProject
+namespace BlogProject.Web
 {
+    using Owin;
+
     public partial class Startup
     {
         public void Configuration(IAppBuilder app)

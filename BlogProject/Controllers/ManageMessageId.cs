@@ -1,7 +1,5 @@
-﻿namespace BlogProject.Controllers
+﻿namespace BlogProject.Web.Controllers
 {
-    using System;
-
     public enum ManageMessageId
     {
         AddPhoneSuccess,

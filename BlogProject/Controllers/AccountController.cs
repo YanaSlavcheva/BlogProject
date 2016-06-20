@@ -1,9 +1,6 @@
-﻿namespace BlogProject.Controllers
+﻿namespace BlogProject.Web.Controllers
 {
-    using System;
-    using System.Globalization;
     using System.Linq;
-    using System.Security.Claims;
     using System.Threading.Tasks;
     using System.Web;
     using System.Web.Mvc;
@@ -12,6 +9,7 @@
     using Microsoft.Owin.Security;
     using ViewModels.Account;
     using ViewModels.Manage;
+    using Web;
 
     [Authorize]
     public class AccountController : Controller

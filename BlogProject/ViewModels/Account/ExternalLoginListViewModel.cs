@@ -1,4 +1,4 @@
-﻿namespace BlogProject.ViewModels.Account
+﻿namespace BlogProject.Web.ViewModels.Account
 {
     public class ExternalLoginListViewModel
     {
