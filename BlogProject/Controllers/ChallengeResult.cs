@@ -10,7 +10,6 @@
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin.Security;
-    using BlogProject.Models;
 
     internal class ChallengeResult : HttpUnauthorizedResult
     {

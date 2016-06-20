@@ -10,8 +10,6 @@
     using Microsoft.Owin;
     using Microsoft.Owin.Security;
 
-    using BlogProject.Models;
-
     public class EmailService : IIdentityMessageService
     {
         public Task SendAsync(IdentityMessage message)

@@ -10,7 +10,8 @@
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin.Security;
-    using BlogProject.Models;
+    using ViewModels.Account;
+    using ViewModels.Manage;
 
     [Authorize]
     public class AccountController : Controller

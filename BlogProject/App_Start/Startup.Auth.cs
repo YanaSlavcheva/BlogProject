@@ -7,7 +7,7 @@
     using Microsoft.Owin.Security.Cookies;
     using Microsoft.Owin.Security.Google;
     using Owin;
-    using BlogProject.Models;
+    using ViewModels.Manage;
 
     public partial class Startup
     {
