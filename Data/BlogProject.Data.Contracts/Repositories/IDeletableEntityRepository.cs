@@ -2,7 +2,7 @@
 {
     using System.Linq;
 
-    public interface IDeletableRepository<T> : IRepository<T>
+    public interface IDeletableEntityRepository<T> : IRepository<T>
         where T : class
     {
         IQueryable<T> AllWithDeleted();
